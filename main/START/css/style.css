@@ -1,0 +1,30 @@
+body{
+  background: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+p{
+  user-select: none;
+  -moz-user-select: none;
+}
+img{
+  user-select: none;
+  -moz-user-select: none;
+  /* cursor: url("../img/cursor.png") 10 10, auto; */
+  cursor: -webkit-image-set(url('../img/cursor.png') 1x, url('../img/cursor@2x.png') 2x) 10 10, auto;
+}
+
+#go{
+  /* background: pink; */
+  width: 130px;
+  height: 75px;
+  left:655px;
+  top: 580px;
+  position: absolute;
+  cursor: -webkit-image-set(url('../img/peg.png') 1x, url('../img/peg@2x.png') 2x)10 10, auto;
+}
